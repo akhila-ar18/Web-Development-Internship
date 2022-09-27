@@ -1,0 +1,50 @@
+body{
+    background-color:aquamarine;
+    margin: 20px 20px;
+    font-size: 20px;
+}
+
+header{
+    background-color:teal;
+    color: white;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+}
+
+h4::first-letter{
+    font-size: 60px;
+    color:yellow;
+    background-color:green;
+    float: top;
+}
+
+.para::first-line{
+    text-transform: uppercase;
+    color:deeppink;
+}
+
+h5::after{
+    content: "Web";
+    color:crimson;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h2::before{
+    content: "AlmaPod ";
+    color: white;
+    background-color:orange;
+}
+
+.div1 p:nth-child(2n){
+    border: 5px dotted blue;
+}
+
+p:first-child{
+    border: 5px solid red;
+}
+
+p:last-child{
+    background-color:yellow;
+}
