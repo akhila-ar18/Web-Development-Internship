@@ -1,0 +1,43 @@
+body{
+    height: 1000px;
+}
+
+h1{
+    color:darkgreen;
+    background-color: yellow;
+    width: 500px;
+    text-align: center;
+}
+
+header{
+    background-color: crimson;
+    color: white;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    font-size: 30px;
+}
+
+.div1 ul{
+    display: inline;
+}
+
+.div2 li{
+    display: inline-block;
+}
+
+.div3 li{
+    display: none;
+}
+
+.div4 ul{
+    display:flex;
+}
