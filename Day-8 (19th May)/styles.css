@@ -1,0 +1,74 @@
+
+body{
+    margin: 20px 20px;
+    height: 3000px;
+}
+
+header{
+    background-color: crimson;
+    color: white;
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+}
+
+.minWidth{
+        font-size: 15px;
+        min-width: 500px;
+        background-color: aquamarine;
+}
+
+.maxWidth{
+        font-size: 15px;
+        background-color:cadetblue;
+        max-width: 300px;
+}
+
+.minHeight{
+        font-size: 20px;
+         background-color:khaki;
+         min-height: 200px;
+}
+
+.maxHeight{
+        font-size: 20px;
+         background-color:coral;
+         max-height: 100px;
+}
+
+.allFourCombined{
+        font-size: 15px;
+        min-width: 150px;
+        min-height: 150px;
+        max-width: 300px;
+        max-height: 300px;
+        background-color:aqua;
+}
+
+.auto{
+    background-color:lightgreen;
+    width: 30%;
+    height: 150px;
+    overflow: auto;
+}
+
+.visible{
+    background-color:lightcoral;
+    width: 30%;
+    height: 200px;
+    overflow: visible;
+}
+
+.hide{
+        width: 30%;
+        height: 150px;
+        background-color:lightseagreen;
+        overflow: hidden;
+}
+
+.scroll{
+        background-color:hotpink;
+        width: 30%;
+        height: 150px;
+        overflow: scroll;
+}
