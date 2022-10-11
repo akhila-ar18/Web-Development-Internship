@@ -1,0 +1,63 @@
+
+*{
+    margin: 0;
+    padding: 12px;
+    background-color:lightyellow;
+}
+#box-shadow{
+    background-color:lightblue;
+    box-shadow: 10px 10px pink;
+}
+#text-shadow{
+    background-color:lightsalmon;
+    text-shadow: 10px 10px white;
+}
+#opacity{
+    opacity: 0.5;
+}
+#background-size{
+    font-size: 30px;
+    color:white;
+    background-color:steelblue;
+    background-size: 1500px 700px;
+    background-image: url(https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg);
+    padding: 50px;
+    background-repeat: no-repeat;
+}
+img{
+    object-fit: cover;
+    width: 200px;
+    height: 300px;
+}
+
+.img2{
+    width: 200px;
+    height: 300px;
+    object-position: cover;
+}
+
+#p{
+    border: 3px solid black;
+    width: 100px;
+    overflow: hidden;
+    text-overflow: "-----";
+    white-space: nowrap;
+    margin-bottom: 15px;
+}
+
+#q{
+    border: 3px solid black;
+    width: 100px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    margin-bottom: 15px;
+}
+
+#r{
+    border: 3px solid black;
+    width: 100px;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
+}
