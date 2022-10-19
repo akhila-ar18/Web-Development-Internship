@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment_16</title>
+</head>
+  
+<body>
+    <h1>IF & IF-ELSE STATEMENTS</h1>
+    <h2>If & if-else statements using javascript have been verified!!</h2>
+
+    <script>
+      
+        var marks1 = parseInt(prompt("Enter Maths marks"));
+        var marks2 = parseInt(prompt("Enter Science marks"));
+        var marks3 = parseInt(prompt("Enter CS marks"));
+        var total = marks1 + marks2 + marks3;
+        var percentage = total * 100 / 150;
+        alert(percentage);
+        if(percentage >= 80)
+            alert("Grade A");
+        else if(percentage >= 60 && percentage < 80)
+            alert("Grade B");
+        else if(percentage >= 50 && percentage < 79)
+            alert("Grade C");
+        else if(percentage >= 35 && percentage < 49)
+            alert("Grade D");
+        else
+            alert("Fail class");
+      
+    </script>
+  
+</body>
+</html>
