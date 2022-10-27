@@ -1,0 +1,41 @@
+header{
+    background-color:tomato;
+    color: white;
+    width: 100%;
+    font-size: 45px;
+    text-align: center;
+}
+
+p{
+    font-size: 25px;
+}
+
+.para1{
+    font-size: 25px;
+
+}
+
+#div1{
+    width: 80px;
+    height: 80px;
+    background-color:green;
+}
+
+#div2{
+    width: 80px;
+    height: 80px;
+    background-color:red;
+}
+
+#div3{
+    width: 80px;
+    height: 80px;
+    background-color:blue;
+}
+
+h2{
+    color:white;
+    background-color:darkcyan;
+    border-radius: 50px;
+    text-align:center;
+}
